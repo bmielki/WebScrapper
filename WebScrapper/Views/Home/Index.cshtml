@@ -1,0 +1,18 @@
+﻿<div class="jumbotron">
+    <h1>Web Scrapper</h1>
+    <p class="lead">This is a Web Scrapper application built by Bernardo Mielki. <br /> Task given as a test for Altudo's Back-end developer position.</p>
+    <p><a href="https://github.com/bmielki" class="btn btn-primary btn-lg">Go to Github &raquo;</a></p>
+</div>
+
+
+@using (Html.BeginForm("Index", "Home", FormMethod.Post))
+{
+<div class="input-group ">
+    @Html.TextBox("url", "", new { placeholder = "Enter URL", @class = "form-control input-lg" })
+    <div class="input-group-append">
+        <button type="submit" class="btn btn-primary">Search</button>
+    </div>
+</div>
+<p class="text-danger mt-2">@ViewBag.Message</p>
+}
+
