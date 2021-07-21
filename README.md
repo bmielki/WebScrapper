@@ -12,5 +12,11 @@ It features 2 extractions:
 
 ## Contact
 Bernardo Mielki
-Linkedin (https://www.linkedin.com/in/bmielki/)
-Email (bernardo_fm@hotmail.com)
+* Linkedin (https://www.linkedin.com/in/bmielki/)
+* Email (bernardo_fm@hotmail.com)
+
+## How to run
+1) Clone the repository
+$ git clone https://github.com/bmielki/WebScrapper.git
+
+2) Open the solution using Visual Studio and Run
